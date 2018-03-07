@@ -22,7 +22,7 @@ Typical working hours: Between 2 pm and 4 am UTC +5:30
 
 ## Personal background
 
-I am a third year B.Tech. undergraduate at Indian Institute of Technology (ISM), Dhanbad. I am pursuing Electronics and Communication Engineering as my Major. I love coding. I'm just addicted to it. I have a keen interest in Android App development.
+I am a third year B.Tech. undergraduate at [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.ac.in/) . I am pursuing Electronics and Communication Engineering as my Major. I love coding. I'm just addicted to it. I have a keen interest in Android App development.
 
 Other than this I like tinkering with electronic circuits and making small robotic vehicles. I also like listening to music . I'll like learning and trying out new things.
 
@@ -31,14 +31,10 @@ Other than this I like tinkering with electronic circuits and making small robot
 
 It has been an enriching experience contributing to the app and I look forward to continue contributing to it. A list of my contributions is as follows :
 
-PR [#1188](https://github.com/commons-app/apps-android-commons/pull/1188) (Merged)
-
-PR [#1185](https://github.com/commons-app/apps-android-commons/pull/1185) (Merged)
-
-PR [#1152](https://github.com/commons-app/apps-android-commons/pull/1152) (Merged)
-
-PR [#1145](https://github.com/commons-app/apps-android-commons/pull/1145) (Merged)
-
-PR [#1190](https://github.com/commons-app/apps-android-commons/pull/1190) (Closed)
-
-PR [#1142](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed)
+PR [feat: Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) (Merged)  
+PR [feat: Rate Us feature ](https://github.com/commons-app/apps-android-commons/pull/1188) (Merged)
+PR [feat: Changed WebView to CustomTabs in App](https://github.com/commons-app/apps-android-commons/pull/1185) (Merged)
+PR [feat: Created Template for Pull Request](https://github.com/commons-app/apps-android-commons/pull/1152) (Merged)
+PR [feat: Created Template for Issue](https://github.com/commons-app/apps-android-commons/pull/1145) (Merged) 
+PR [feat: Change Toolbar color](https://github.com/commons-app/apps-android-commons/pull/1190) (Closed) 
+PR [feat: Add Option to delete the contributed image](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed) 
