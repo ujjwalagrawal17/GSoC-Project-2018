@@ -26,3 +26,19 @@ I am a third year B.Tech. undergraduate at Indian Institute of Technology (ISM),
 
 Other than this I like tinkering with electronic circuits and making small robotic vehicles. I also like listening to music . I'll like learning and trying out new things.
 
+
+# Contributions to Wikimedia Commons App
+
+It has been an enriching experience contributing to the app and I look forward to continue contributing to it. A list of my contributions is as follows :
+
+PR [#1188](https://github.com/commons-app/apps-android-commons/pull/1188) (Merged)
+
+PR [#1185](https://github.com/commons-app/apps-android-commons/pull/1185) (Merged)
+
+PR [#1152](https://github.com/commons-app/apps-android-commons/pull/1152) (Merged)
+
+PR [#1145](https://github.com/commons-app/apps-android-commons/pull/1145) (Merged)
+
+PR [#1190](https://github.com/commons-app/apps-android-commons/pull/1190) (Closed)
+
+PR [#1142](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed)
