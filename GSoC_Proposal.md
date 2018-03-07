@@ -1,6 +1,6 @@
-#Developing Feedback Sharing Module in Wikimedia Commons App
+# Developing Feedback Sharing Module in Wikimedia Commons App
 
-##Personal Details
+## Personal Details
 
 Name: Ujjwal Agrawal
 
@@ -20,7 +20,7 @@ Location : India (UTC +5:30)
 
 Typical working hours: Between 2 pm and 4 am UTC +5:30
 
-##Personal background
+## Personal background
 
 I am a third year B.Tech. undergraduate at Indian Institute of Technology (ISM), Dhanbad. I am pursuing Electronics and Communication Engineering as my Major. I love coding. I'm just addicted to it. I have a keen interest in Android App development.
 
