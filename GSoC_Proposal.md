@@ -32,9 +32,15 @@ Other than this I like tinkering with electronic circuits and making small robot
 It has been an enriching experience contributing to the app and I look forward to continue contributing to it. A list of my contributions is as follows :
 
 PR [feat: Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) (Merged)  
+
 PR [feat: Rate Us feature ](https://github.com/commons-app/apps-android-commons/pull/1188) (Merged)
+
 PR [feat: Changed WebView to CustomTabs in App](https://github.com/commons-app/apps-android-commons/pull/1185) (Merged)
+
 PR [feat: Created Template for Pull Request](https://github.com/commons-app/apps-android-commons/pull/1152) (Merged)
+
 PR [feat: Created Template for Issue](https://github.com/commons-app/apps-android-commons/pull/1145) (Merged) 
+
 PR [feat: Change Toolbar color](https://github.com/commons-app/apps-android-commons/pull/1190) (Closed) 
+
 PR [feat: Add Option to delete the contributed image](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed) 
