@@ -90,6 +90,8 @@ Also there is a feature for users to see list of links where the image uploaded 
 
 ## Participation
 
+**Progress Report**
+
 - I will remain online on IRC,Hangouts in my working hours ( 2 pm to 3 am UTC +5:30)
 - I will write Weekly Blog Posts at (https://ujjwalagrawal.wordpress.com/) .
 - I will share my blogs on Twitter.
@@ -99,6 +101,13 @@ Also there is a feature for users to see list of links where the image uploaded 
 > - What is currently preventing me from reaching goals?
 - I will submit a Project Presentation 
 
+**Where you plan to publish your source code**
+
+I will be uploading code to the forked repo almost on a daily basis, will be Creating pull requests when a complete feature is done.
+
+**Communication on task**
+
+Communication on tasks will be through commenting on Issues/PRs in the project Repository on Github.
 
 ## Personal background
 
