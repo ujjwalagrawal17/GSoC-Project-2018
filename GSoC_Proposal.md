@@ -48,30 +48,56 @@ Also there is a feature for users to see list of links where the image uploaded 
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |
 	
 ## Deliverables
-- .
-- .
-- .
-- .
+**Week 1 (1 - 7 May)**
+
+**Week 2 (8 - 14 May)**
+
+**Week 3 (15 - 21 May)**
+
+**Week 4 ( 22 - 28 May)**
+
+**Week 5 (29 May - 4 June)**
+
+**Week 6 (5-10 June)**
+
 **Phase I evaluation**
-- .
-- .
-- .
+
+**Week 7 (11-17 June)**
+
+**Week 8 ( 18 - 24 June)**
+
+**Week 9 (25 June - 1 July)**
+
+**Week 10 (2 - 8 July)**
+
 **Phase II evaluation**
-- .
-- .
-- .
-- .
+
+**Week 11 (9 - 15 July)**
+
+**Week 12 (16 - 22 July)**
+
+**Week 13 (23 - 29 July)**
+
+**Week 14 (30 - 5 August)**
+
+**Week 15 (6 - 13 August)**
+
+- Documentation of the project
+- Completion of testing
+- Fixing bugs.
+
 **Final evaluation**
 
 ## Participation
 
+- I will remain online on IRC,Hangouts in my working hours ( 2 pm to 3 am UTC +5:30)
 - I will write Weekly Blog Posts at (https://ujjwalagrawal.wordpress.com/) .
 - I will share my blogs on Twitter.
-- I will remain online on IRC,Hangouts in my working hours ( 2 pm to 3 am UTC +5:30)
 - Write Weekly Scrum Reports
 > - What did I do last week?
 > - What will I do this week?
 > - What is currently preventing me from reaching goals?
+- I will submit a Project Presentation 
 
 
 ## Personal background
