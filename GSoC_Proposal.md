@@ -72,3 +72,11 @@ It has been an enriching experience contributing to the app and I look forward t
 1. [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140) (Closed)
 
 1. [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) (Closed)
+
+1. [Add Share app option inside app](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+
+1. [Option to edit Images in App before Uploading](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+
+1. [Change MediaDetailFragment Design](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+
+1. [Add Option to delete the uploaded image.](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
