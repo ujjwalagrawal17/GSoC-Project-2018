@@ -26,6 +26,17 @@ After the project, an feedback/suggestion feature is successfully included in th
 There is a feature for users to add their own suggestions on the edits .
 Also there is a feature for users to see list of links where the image uploaded by them are being used(wikis and pages).
 
+## Timeline
+
+| Period  | Task |
+| ------------- | ------------- |
+| April 23 to May 14  | Community bonding period. UI design for displaying the feedback messages with links to provide feedback on the suggestions. Designing UI mockups. Framing questions for the feedback form.  |
+| August 6 to August 14  | Bug fixes, Writing documentation and Updating appropriate guides. Code cleanup for submission.  |
+| August 14 to August 21  | Mentors submit final student evaluations.  |
+| August 22  | Final results of Google Summer of Code 2018 announced  |
+	
+
+
 ## Personal background
 
 I am a third year B.Tech. undergraduate at [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.ac.in/) . I am pursuing Electronics and Communication Engineering as my Major. I love coding. I have a keen interest in Android App development.
