@@ -102,10 +102,21 @@ Also there is a feature for users to see list of links where the image uploaded 
 
 ## Personal background
 
-I am a third year B.Tech. undergraduate at [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.ac.in/) . I am pursuing Electronics and Communication Engineering as my Major. I love coding. I have a keen interest in Android App development.
+I am a third year B.Tech. undergraduate at [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.ac.in/) . I am pursuing Electronics and Communication Engineering as my Major. I have a keen interest in Android App development. I use git and Github everyday and I am well acquainted with how to use them for version control.
 
-Other than this I like tinkering with electronic circuits and making small robotic vehicles. I also like listening to music . I'll like learning and trying out new things.
+**How did you hear about this program?**
 
+I am an open source enthusiast from past 1 year, I've always wanted to take part in Google Summer of Code.
+
+**Time during Summers**
+
+I have no other commitments this summer. So I'll be able to give a 40 hours or more per week. My summer break starts from 29th April so I can start working full time from that day on. I'll not be taking any vacations. My classes start around 20th July but I will be able to commit enough time for the project as there are no exams during the period
+
+**Eligible for Google Summer of Code and Outreachy ?**
+
+I am applying only for GSoC as I am not eligible for Outreachy program. I am applying under Wikimedia Commons Android only.
+
+**What excites me about this project**
 
 ## Contributions to Wikimedia Commons App
 
@@ -154,3 +165,19 @@ It has been an enriching experience contributing to the app and I look forward t
 -  [Change MediaDetailFragment Design](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
 
 -  [Add Option to delete the uploaded image.](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+
+# Questions
+
+**Is the timeline to be modified in any other way?**
+For e.g.
+
+Decreasing time for some feature and giving it to other
+Changing order of doing things.
+
+**Is the proposal to be modified in any other way?**
+
+Adding more detail for something
+Removing some detail
+Changing the order of writing things
+Anything wrongly written
+Any comments on the readability of the proposal
