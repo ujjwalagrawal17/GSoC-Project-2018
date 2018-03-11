@@ -30,9 +30,20 @@ Also there is a feature for users to see list of links where the image uploaded 
 
 | Period  | Task |
 | ------------- | ------------- |
-| April 23 to May 14  | **Community bonding period.** UI design for displaying the feedback messages with links to provide feedback on the suggestions. Designing UI mockups. Framing questions for the feedback form.  |
+| April 23 to May 14  | **Community bonding period.** |
+| May 15 to June 20  | .  |
+| May 21 to June 27  | .  |
+| May 28 to June 3  | .  |
+| June 4 to June 10  | .  |
 | June 11 to June 15  | **Phase I evaluation**  |
+| June 16 to June 24  | .  |
+| June 25 to July 1  | .  |
+| July 2 to July 8  | .  |
 | July 9 to July 13  | **Phase II evaluation**  |
+| July 14 to July 22  | .  |
+| July 23 to July 29  | .  |
+| July 30 to August 5  | .  |
+| August 6 to August 13  | .  |
 | August 14 to August 21  | Mentors submit final student evaluations.  |
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |
 	
