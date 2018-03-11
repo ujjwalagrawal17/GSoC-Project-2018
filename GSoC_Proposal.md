@@ -8,13 +8,15 @@ University: [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.a
 
 Email: ujjwal.iitism@gmail.com
 
-Github: ujjwalagrawal17
+Github: [ujjwalagrawal17](https://github.com/ujjwalagrawal17)
 
 IRC nick : ujjwalagrawal17
 
 Other Contact Methods: Google Hangouts, Gitter Chat
 
 Blog : https://ujjwalagrawal.wordpress.com/
+
+Twitter : [@ujjwal171097](https://twitter.com/ujjwal171097?s=09)
 
 Location : India (UTC +5:30)
 
