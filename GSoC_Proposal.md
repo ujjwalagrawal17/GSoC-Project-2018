@@ -39,44 +39,44 @@ It has been an enriching experience contributing to the app and I look forward t
 
 **Pull Requests :**
 
-1. [Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) (Merged)  
+-  [Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) (Merged)  
 
-1. [Rate Us feature ](https://github.com/commons-app/apps-android-commons/pull/1188) (Merged)
+-  [Rate Us feature ](https://github.com/commons-app/apps-android-commons/pull/1188) (Merged)
 
-1. [Changed WebView to CustomTabs in App](https://github.com/commons-app/apps-android-commons/pull/1185) (Merged)
+-  [Changed WebView to CustomTabs in App](https://github.com/commons-app/apps-android-commons/pull/1185) (Merged)
 
-1. [Created Template for Pull Request](https://github.com/commons-app/apps-android-commons/pull/1152) (Merged)
+-  [Created Template for Pull Request](https://github.com/commons-app/apps-android-commons/pull/1152) (Merged)
 
-1. [Created Template for Issue](https://github.com/commons-app/apps-android-commons/pull/1145) (Merged) 
+-  [Created Template for Issue](https://github.com/commons-app/apps-android-commons/pull/1145) (Merged) 
 
-1. [Change Toolbar color](https://github.com/commons-app/apps-android-commons/pull/1190) (Closed) 
+-  [Change Toolbar color](https://github.com/commons-app/apps-android-commons/pull/1190) (Closed) 
 
-1. [Add Option to delete the contributed image](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed) 
+-  [Add Option to delete the contributed image](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed) 
 
 **Issues :**
 
-1. [Add FAQs page in Commons App](https://github.com/commons-app/apps-android-commons/issues/1246) (Closed)
+-  [Add FAQs page in Commons App](https://github.com/commons-app/apps-android-commons/issues/1246) (Closed)
 
-1. [Add Option to donate to Wikimedia Foundation](https://github.com/commons-app/apps-android-commons/issues/1231) (Closed)
+-  [Add Option to donate to Wikimedia Foundation](https://github.com/commons-app/apps-android-commons/issues/1231) (Closed)
 
-1. [Change toolbar color to primary color](https://github.com/commons-app/apps-android-commons/issues/1189) (Closed)
+-  [Change toolbar color to primary color](https://github.com/commons-app/apps-android-commons/issues/1189) (Closed)
 
-1. [Rate Us feature in nav drawer](https://github.com/commons-app/apps-android-commons/issues/1187) (Closed)
+-  [Rate Us feature in nav drawer](https://github.com/commons-app/apps-android-commons/issues/1187) (Closed)
 
-1. [Adding PULL_REQUEST_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1146) (Closed)
+-  [Adding PULL_REQUEST_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1146) (Closed)
 
-1. [Adding ISSUE_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1144) (Closed)
+-  [Adding ISSUE_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1144) (Closed)
 
-1. [Change Webviews to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143) (Closed)
+-  [Change Webviews to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143) (Closed)
 
-1. [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140) (Closed)
+-  [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140) (Closed)
 
-1. [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) (Closed)
+-  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) (Closed)
 
-1. [Add Share app option inside app](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+-  [Add Share app option inside app](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
 
-1. [Option to edit Images in App before Uploading](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+-  [Option to edit Images in App before Uploading](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
 
-1. [Change MediaDetailFragment Design](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+-  [Change MediaDetailFragment Design](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
 
-1. [Add Option to delete the uploaded image.](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+-  [Add Option to delete the uploaded image.](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
