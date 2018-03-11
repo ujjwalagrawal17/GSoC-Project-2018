@@ -20,7 +20,7 @@ Location : India (UTC +5:30)
 
 Typical working hours: Between 2 pm and 4 am UTC +5:30
 
-# Synopsis
+## Synopsis
 
 After the project, an feedback/suggestion feature is successfully included in the Wikimedia commons app that is shown in the My contributions section that shows the all the revisions of images uploaded by a particular user.(Including image,description,date,source,author,permission,location)
 There is a feature for users to add their own suggestions on the edits .
@@ -30,9 +30,9 @@ Also there is a feature for users to see list of links where the image uploaded 
 
 | Period  | Task |
 | ------------- | ------------- |
-| April 23 to May 14  | **Community bonding period.** |
-| May 15 to June 20  | .  |
-| May 21 to June 27  | .  |
+| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architechture and Wikimedia APIs|
+| May 15 to June 20  | Add a view revisions button in MediaDetailsFragment ,and show list of Revisions of images uploaded by the user (only images) using [Revision API](https://www.mediawiki.org/wiki/API:Revisions) in Recycler View.Testing and fixing bugs in the activity. |
+| May 21 to June 27  | Designing details page and Show revision details including date,time,revised image,user who revised(including page links) , comment by user.Testing and fixing bugs in the activity.  |
 | May 28 to June 3  | .  |
 | June 4 to June 10  | .  |
 | June 11 to June 15  | **Phase I evaluation**  |
@@ -43,10 +43,11 @@ Also there is a feature for users to see list of links where the image uploaded 
 | July 14 to July 22  | .  |
 | July 23 to July 29  | .  |
 | July 30 to August 5  | .  |
-| August 6 to August 13  | .  |
+| August 6 to August 13  | Testing, Bug fixes, Writing documentation and Updating appropriate guides. Code cleanup for submission.  |
 | August 14 to August 21  | Mentors submit final student evaluations.  |
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |
 	
+## Deliverables
 
 
 ## Personal background
@@ -56,7 +57,7 @@ I am a third year B.Tech. undergraduate at [Indian Institute of Technology (ISM)
 Other than this I like tinkering with electronic circuits and making small robotic vehicles. I also like listening to music . I'll like learning and trying out new things.
 
 
-# Contributions to Wikimedia Commons App
+## Contributions to Wikimedia Commons App
 
 It has been an enriching experience contributing to the app and I look forward to continue contributing to it. A list of my contributions is as follows :
 
