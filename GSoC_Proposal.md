@@ -48,6 +48,30 @@ Also there is a feature for users to see list of links where the image uploaded 
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |
 	
 ## Deliverables
+- .
+- .
+- .
+- .
+**Phase I evaluation**
+- .
+- .
+- .
+**Phase II evaluation**
+- .
+- .
+- .
+- .
+**Final evaluation**
+
+## Participation
+
+- I will write Weekly Blog Posts at (https://ujjwalagrawal.wordpress.com/) .
+- I will share my blogs on Twitter.
+- I will remain online on IRC,Hangouts in my working hours ( 2 pm to 3 am UTC +5:30)
+- Write Weekly Scrum Reports
+> - What did I do last week?
+> - What will I do this week?
+> - What is currently preventing me from reaching goals?
 
 
 ## Personal background
