@@ -1,136 +1,130 @@
-# Developing Feedback Sharing Module in Wikimedia Commons App
-
-## Personal Details
+===Profile Information
 
 Name: Ujjwal Agrawal
-
-University: [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.ac.in)
-
+University:  IIT (ISM), Dhanbad
 Email: ujjwal.iitism@gmail.com
-
-Github: [ujjwalagrawal17](https://github.com/ujjwalagrawal17)
-
-IRC nick : ujjwalagrawal17
-
+Github: ujjwalagrawal17
+IRC nick: ujjwalagrawal17
 Other Contact Methods: Google Hangouts, Gitter Chat
+Blog: https://ujjwalagrawal.wordpress.com/
+Twitter: ujjwal171097
+Location: India (UTC +5:30)
+Typical working hours: Between 1 pm and 11 pm UTC +5:30
 
-Blog : https://ujjwalagrawal.wordpress.com/
 
-Twitter : [@ujjwal171097](https://twitter.com/ujjwal171097?s=09)
+===Synopsis
+About the app:
+The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to Wikimedia Commons. Wikimedia commons accept only freely licensed media files (that are not subject to any copyright). Users can upload images and then add various tags specific to them such as category, title, and description, license.
 
-Location : India (UTC +5:30)
+About the project:
+This project is aimed at providing an option to browse/search the Wikimedia Commons using the app.
 
-Typical working hours: Between 2 pm and 4 am UTC +5:30
+**Why this feature is needed?**
+- More and more, users are asking (as evidenced by Play Store feedback), people want to be able to also browse existing Commons images via the app.
+- Quality of uploads should increase by letting users see other people's work.
 
-## Synopsis
+**What can be implemented ?**
+- Image Search on Wikimedia Commons using a title.
+- Restrict the search results to images, or make sure no crash happens when opening exotic formats such as SVGs or sounds
+- Link to the Media Details activity to see an image's details (Needs feedback)
+- Category Search on Opening details shows the sub-categories and the images present in that category
+- Modify the category activity to show the best images first. (Bonus)
 
-After the project, an feedback/suggestion feature is successfully included in the Wikimedia commons app that is shown in the My contributions section that shows the all the revisions of images uploaded by a particular user.(Including image,description,date,source,author,permission,location)
-There is a feature for users to add their own suggestions on the edits .
-Also there is a feature for users to see list of links where the image uploaded by them are being used(wikis and pages).
+**How it can be implemented?**
+- Explore Mediawiki APIs to search images using titles, search categories.(Probably using SEARCH API) 
+- Implement async calls requests to request Search pictures 
+- Develop feature for displaying search results in Featured Images Activity.
+- Implement async calls requests to request Search Categories 
+- Implement the category activity, which shows the sub-categories and the images present in that category
+- Debugging, testing followed by code documentation.
+- Release (at least in alpha)
 
-## Timeline
+**Mentors** 
+- @Nes 
+- @Nicolas_Raoul
 
-| Period  | Task |
-| ------------- | ------------- |
-| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architechture and Wikimedia APIs|
-| May 15 to June 20  | Add a view revisions button in MediaDetailsFragment ,and show list of Revisions of images uploaded by the user (only images) using [Revision API](https://www.mediawiki.org/wiki/API:Revisions) in Recycler View.Testing and fixing bugs in the activity. |
-| May 21 to June 27  | Designing details page and Show revision details including date,time,revised image,user who revised(including page links) , comment by user.Testing and fixing bugs in the activity.  |
-| May 28 to June 3  | .  |
-| June 4 to June 10  | .  |
-| June 11 to June 15  | **Phase I evaluation**  |
-| June 16 to June 24  | .  |
-| June 25 to July 1  | .  |
-| July 2 to July 8  | .  |
-| July 9 to July 13  | **Phase II evaluation**  |
-| July 14 to July 22  | .  |
-| July 23 to July 29  | .  |
-| July 30 to August 5  | .  |
-| August 6 to August 13  | Testing, Bug fixes, Writing documentation and Updating appropriate guides. Code cleanup for submission.  |
-| August 14 to August 21  | Mentors submit final student evaluations.  |
-| August 22  | **Final results of Google Summer of Code 2018 announced**  |
-	
-## Deliverables
 
-**Week 1 (15 - 21 May)**
+===Timeline
+// To be updated ..
 
-**Week 2 ( 22 - 28 May)**
+| **Period** | **Task** | **Deliverables** |
+| ------------- | ------------- | ---------------|
+| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architecture and Wikimedia APIs | Weekly report and blogs about the experience, app architecture |
+| May 14 to May 21  |   |   |
+| May 21 to May 28  |    |   |
+| May 28 to June 4 |    |   |
+| June 5 to June 10  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |  |
+| June 11 to June 15  | **Phase I evaluation**  |  |
+| June 16 to June 24  |   |  |
+| June 25 to July 1  |   |  |
+| July 2 to July 8  | Release (at least in alpha), write documentation, test, fix bugs  |  |
+| July 9 to July 13  | **Phase II evaluation**  |  |
+| July 14 to July 22  |    |   |
+| July 23 to July 29  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |   |
+| July 30 to August 5  |   |   |
+| August 6 to August 13  |   |   |
+| August 14 to August 21  | Mentors submit final student evaluations.  |  |
+| August 22  | **Final results of Google Summer of Code 2018 announced**  |  |
+|--------------|-------------------|
 
-**Week 3 (29 May - 4 June)**
 
-**Week 4 (5-10 June)**
-
-**Phase I evaluation**
-
-**Week 5 (11-17 June)**
-
-**Week 6 ( 18 - 24 June)**
-
-**Week 7 (25 June - 1 July)**
-
-**Week 18 (2 - 8 July)**
-
-**Phase II evaluation**
-
-**Week 9 (9 - 15 July)**
-
-**Week 10 (16 - 22 July)**
-
-**Week 11 (23 - 29 July)**
-
-**Week 12 (30 - 5 August)**
-
-**Week 13 (6 - 13 August)**
-
-- Documentation of the project
-- Completion of testing
-- Fixing bugs.
-
-**Final evaluation**
-
-## Participation
+===Participation
 
 **Progress Report**
-
-- I will remain online on IRC,Hangouts in my working hours ( 2 pm to 3 am UTC +5:30)
+- I will remain online on IRC, Hangouts during my working hours ( 1 pm to 11 pm UTC +5:30)
 - I will write Weekly Blog Posts at (https://ujjwalagrawal.wordpress.com/) .
 - I will share my blogs on Twitter.
-- Write Weekly Scrum Reports
-> - What did I do last week?
-> - What will I do this week?
-> - What is currently preventing me from reaching goals?
-- I will submit a Project Presentation 
-
+- Write Weekly Scrum Reports and update it in our mailing list [commons-app-android@googlegroups.com]
+-- What did I do last week?
+-- What will I do this week?
+-- What is currently preventing me from reaching goals?
+- I will submit a Project Presentation
 **Where you plan to publish your source code**
-
-I will be uploading code to the forked repo almost on a daily basis, will be Creating pull requests when a complete feature is done.
-
+- I will be working on a separate branch on git and uploading code to the forked repo almost on a daily basis, will be Creating pull requests when a complete feature is done.
 **Communication on task**
+- I will use Phabricator to manage bugs and task.
 
-Communication on tasks will be through commenting on Issues/PRs in the project Repository on Github.
 
-## Personal background
+===About Me
 
-I am a third year B.Tech. undergraduate at [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.ac.in/) . I am pursuing Electronics and Communication Engineering as my Major. I have a keen interest in Android App development. I use git and Github everyday and I am well acquainted with how to use them for version control.
+**Personal background**
+
+I am a third-year B.Tech. undergraduate at [Indian Institute of Technology (ISM), Dhanbad](https://www.iitism.ac.in/) . I am pursuing Electronics and Communication Engineering as my Major. I have a keen interest in Android App development( I have been doing Android App Development from last 2 years). I use git and Github every day and I am well acquainted with how to use them for version control.
 
 **How did you hear about this program?**
 
-I am an open source enthusiast from past 1 year, I've always wanted to take part in Google Summer of Code.
+Heard about GSoC in a campus meetup. I am an open source enthusiast from past 1 year, I've always wanted to take part in Google Summer of Code.
 
 **Time during Summers**
 
-I have no other commitments this summer. So I'll be able to give a 40 hours or more per week. My summer break starts from 29th April so I can start working full time from that day on. I'll not be taking any vacations. My classes start around 20th July but I will be able to commit enough time for the project as there are no exams during the period
+I have no other commitments this summer. So I'll be able to give 40 hours or more per week. My summer break starts on 30th April so I can start working full time from that day on. I'll not be taking any vacations. My classes start around 20th July but I will be able to commit enough time to the project as there are no exams during the period
 
 **Eligible for Google Summer of Code and Outreachy ?**
 
 I am applying only for GSoC as I am not eligible for Outreachy program. I am applying under Wikimedia Commons Android only.
 
 **What excites me about this project**
+//TBU
+I loved the goal of Wikimedia Foundation "Global movement whose mission is to bring free educational content to the world".
+I would be really great for me to apply my skills and contribute to such an organization.
 
-## Contributions to Wikimedia Commons App
+==Past Experience
 
-It has been an enriching experience contributing to the app and I look forward to continue contributing to it. A list of my contributions is as follows :
+I’ve been doing Android development in my First year. My first project was a Home Automation app to control LED lights using our mobile phone(Raspberry Pi behaving as a server)that I built in a hackathon. Since I am a part of CyberLabs (Cyber Society of my College), we organize sessions to teach juniors the basics of Technologies. After that I had made several projects for my learning and few apps.  for various startups across India. Some of them are :
 
-**Pull Requests :**
+1. VegWorld: An Grocery Delivery App 
+- Google Play Link (https://play.google.com/store/apps/details?id=com.grocery.codenicely.vegworld_new&hl=en)
+2. Easy Invoice Manager: App to manage digital Invoices, Quotations, Expenses. Also, the user can share, mail, print the invoices. 
+- Google Play Link (https://play.google.com/store/apps/details?id=com.asap.codenicely.pdf.gstinvoicing.free.mobile.easy.gst.invoice.quick.quickinvoice.gstinvoicing&hl=en)
+
+=== 
+
+
+=== Contributions to Wikimedia Commons App
+
+It has been an enriching experience contributing to the app and I look forward to continuing contributing to it. A list of my contributions is as follows :
+
+**Pull Requests: **
 
 -  [Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) (Merged)  
 
@@ -146,7 +140,7 @@ It has been an enriching experience contributing to the app and I look forward t
 
 -  [Add Option to delete the contributed image](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed) 
 
-**Issues :**
+**Issues:**
 
 -  [Add FAQs page in Commons App](https://github.com/commons-app/apps-android-commons/issues/1246) (Closed)
 
@@ -160,7 +154,7 @@ It has been an enriching experience contributing to the app and I look forward t
 
 -  [Adding ISSUE_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1144) (Closed)
 
--  [Change Webviews to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143) (Closed)
+-  [Change Web views to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143) (Closed)
 
 -  [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140) (Closed)
 
@@ -173,19 +167,3 @@ It has been an enriching experience contributing to the app and I look forward t
 -  [Change MediaDetailFragment Design](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
 
 -  [Add Option to delete the uploaded image.](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
-
-# Questions
-
-**Is the timeline to be modified in any other way?**
-For e.g.
-
-Decreasing time for some feature and giving it to other
-Changing order of doing things.
-
-**Is the proposal to be modified in any other way?**
-
-Adding more detail for something
-Removing some detail
-Changing the order of writing things
-Anything wrongly written
-Any comments on the readability of the proposal
