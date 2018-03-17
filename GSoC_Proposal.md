@@ -49,18 +49,18 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 
 | **Period** | **Task** | **Deliverables** |
 | ------------- | ------------- | ---------------|
-| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architecture and Wikimedia APIs, Learning JavaRx, Getting Familiar with featured images scrollable activity, fragment implementation | Community bonding report and blogs about the experience, app architecture |
+| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architecture and Wikimedia APIs, Learning JavaRx, Getting Familiar with featured images scrollable activity, fragment implementation, Link image search with already existing media details page, making changes in media details fragment for extra details like author name (if it wasn't done already on featured image fragment)  | Community bonding report and blogs about the experience, app architecture |
 | May 14 to May 21  | Add search button/layout in featured image scrollable activity to open Search Activity/Fragment and decide UI mockup for search activity including image search list,  search history. |  |
-| May 21 to May 28  |  Add a new instance of featured image scrollable fragment/child fragment in search activity/fragment. Modify featured image scrollable fragment to show search image results . Use the Mediawiki [Wikimedia Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) to search image list results  (using title). The list will load Search results dynamically on page scroll. using recycler view callback we will fetch new image list with offset. |    |
-| May 28 to June 4 | Store search results in local database to show searched history. Restrict the search results to images, or make sure no crash happen when opening exotic formats such as SVGs or other formats, show search history if search query is null |   |
+| May 21 to May 28  |  Add a new instance of featured image scrollable fragment/child fragment in search activity/fragment. Modify featured image scrollable fragment to show search image results. Use the Mediawiki [Wikimedia Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) to search image list results  (using title). The list will load Search results dynamically on page scroll. using recycler view callback we will fetch new image list with offset. |  |
+| May 28 to June 4 | Store search results in local database to show searched history. Restrict the search results to images, or make sure no crash happen when opening exotic formats such as SVGs or other formats, show search history if the search query is null |   |
 | June 5 to June 10  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |  |
 | June 11 to June 15  | **Phase I evaluation**  |  |
-| June 16 to June 24  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tablayout or some other layout), Discuss UI Mockup for category Activity with mentors  |  |
+| June 16 to June 24  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tab layout or some other layout), Discuss UI Mockup for category Activity with mentors  |  |
 | June 25 to July 1  | Implement category search using the same API and show it in category search fragment/child fragment. Show search history from local database if query is null |  |
 | July 2 to July 8  | Implement the category activity, which shows the sub-categories and the images present in that category |  |
 | July 9 to July 13  | **Phase II evaluation**  |  |
 | July 14 to July 22  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |   |
-| July 23 to July 29  | Link image search with already existing media details page, making changes in media details fragment for extra details like author name (if it wasn't done already on featured image fragment) otherwise will search for APIs  |   |
+| July 23 to July 29  |  otherwise will search for APIs  |   |
 | July 30 to August 5  | Read about FastCCI.  |  |
 | August 6 to August 13  | fixing bugs, final code documentation, final review  |  weekly report and blog and a blog describing the whole experience of internship |
 | August 14 to August 21  | Mentors submit final student evaluations.  |  |
