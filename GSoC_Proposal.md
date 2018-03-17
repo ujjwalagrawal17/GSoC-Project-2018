@@ -62,7 +62,7 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 | July 14 to July 22  |    |   |
 | July 23 to July 29  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |   |
 | July 30 to August 5  |   |   |
-| August 6 to August 13  |   |   |
+| August 6 to August 13  |   |  weekly report and blog and a blog describing the whole experience of internship |
 | August 14 to August 21  | Mentors submit final student evaluations.  |  |
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |  |
 |--------------|-------------------|
@@ -72,9 +72,9 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 
 **Progress Report**
 - I will remain online on IRC, Hangouts during my working hours ( 1 pm to 11 pm UTC +5:30)
-- I will write Weekly Blog Posts at (https://ujjwalagrawal.wordpress.com/) .
+- I will write Weekly Blog Posts at (https://ujjwalagrawal.wordpress.com/).
 - I will share my blogs on Twitter.
-- Write Weekly Scrum Reports and update it in our mailing list [commons-app-android@googlegroups.com]
+- Write Weekly Scrum Reports and update it to our mailing list [commons-app-android@googlegroups.com]
 -- What did I do last week?
 -- What will I do this week?
 -- What is currently preventing me from reaching goals?
@@ -82,7 +82,7 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 **Where you plan to publish your source code**
 - I will be working on a separate branch on git and uploading code to the forked repo almost on a daily basis, will be Creating pull requests when a complete feature is done.
 **Communication on task**
-- I will use Phabricator to manage bugs and task.
+- I will use Github to manage bugs and task.
 
 
 ===About Me
@@ -104,28 +104,32 @@ I have no other commitments this summer. So I'll be able to give 40 hours or mor
 I am applying only for GSoC as I am not eligible for Outreachy program. I am applying under Wikimedia Commons Android only.
 
 **What excites me about this project**
-//TBU
-I loved the goal of Wikimedia Foundation "Global movement whose mission is to bring free educational content to the world".
+I had developed a lot of apps during my college days, but I always wanted to develop apps that really help people. I loved the goal of Wikimedia Foundation "Global movement whose mission is to bring free educational content to the world".
 I would be really great for me to apply my skills and contribute to such an organization.
 
 ==Past Experience
 
-I’ve been doing Android development since my first year. My first project was a Home Automation app to control LED lights using our mobile phone(Raspberry Pi behaving as a server)that I built in a hackathon. After that, I had started making apps for my learning purpose. I liked making prototypes but I have always wanted to make apps that affect people's life. Apart from the prototype, I had also developed some apps that are in Google Play.
+I’ve been doing Android development since my first year. My first project was a Home Automation app to control LED lights using our mobile phone(Raspberry Pi behaving as a server)that I built in a hackathon. After that, I had started making apps for my learning purpose. Apart from the prototypes, I had also developed 2 apps that are in Google Play.
 
-Brand Store: It is an app where users can get offers from nearby shops of different categories across their city. Shops can also register them and show their offers to the users of the app. Although the startup is closed now. but the app is still in google play.
+**Spectrum'18:** 
+I had developed this app for our departmental fest of electronics engineering (Spectrum). It has features like login, OTP verification using the phone number, Show list of events day wise, register for events, send notification for events.
+
+- Google Play Link https://play.google.com/store/apps/details?id=com.ujjwalagrawal.spectrum&hl=en
+- Github Link: https://github.com/Tech-ISM/spectrum-android-app
+
+**Brand Store:** 
+It is an app where users can get offers from nearby shops of different categories across their city. Shops can also register them and show their offers to the users of the app. Although the startup is closed now. but the app is still in google play.
+
 - Google Play Link: https://play.google.com/store/apps/details?id=com.codenicely.brandstore.project&hl=en
 - Github Link: https://github.com/CodeNicely/OfferCartApp
 
-Spectrum'18: I had developed 
-- Google Play Link https://play.google.com/store/apps/details?id=com.ujjwalagrawal.spectrum&hl=en
 
-
-Apart from this, I also have received the Google India Challenge scholarship for Android Developer nanodegree .  have made 2 projects under it as of now.
+Apart from this, I also have received the Google India Challenge scholarship for Android Developer nanodegree this year.
 
 
 === Contributions to Wikimedia Commons App
 
-It has been an enriching experience contributing to the app and I look forward to continuing contributing to it. For all I have learned so far is that your contributions is not just the number of Pull Requests that you’ve got merged. But contributions can be in various forms like:
+It has been an enriching experience contributing to the app and I look forward to continuing contributing to it. For all I have learned so far is that your contributions are not just the number of Pull Requests that you’ve got merged. But contributions can be in various forms like:
 
 - Creating New Issues
 - Finding Bugs
