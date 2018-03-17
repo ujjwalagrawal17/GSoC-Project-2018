@@ -21,7 +21,7 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 
 **Why this feature is needed?**
 - More and more, users are asking (as evidenced by Play Store feedback), people want to be able to also browse existing Commons images via the app.
-- Quality of uploads should increase by letting users see other people's work.
+- Quality of uploads will increase by letting users see other people's work.
 
 **What can be implemented ?**
 - Image Search on Wikimedia Commons using a title.
@@ -49,20 +49,20 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 
 | **Period** | **Task** | **Deliverables** |
 | ------------- | ------------- | ---------------|
-| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architecture and Wikimedia APIs | Weekly report and blogs about the experience, app architecture |
-| May 14 to May 21  |   |   |
-| May 21 to May 28  |    |   |
-| May 28 to June 4 |    |   |
+| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architecture and Wikimedia APIs, Learning JavaRx, Getting Familiar with featured images scrollable activity, fragment implementation | Community bonding report and blogs about the experience, app architecture |
+| May 14 to May 21  | Add search button/layout in featured image scrollable activity to open Search Activity/Fragment and decide UI mockup for search activity including image search list,  search history. |  |
+| May 21 to May 28  |  Add a new instance of featured image scrollable fragment/child fragment in search activity/fragment. Modify featured image scrollable fragment to show search image results . Use the Mediawiki [Wikimedia Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) to search image list results  (using title). The list will load Search results dynamically on page scroll. using recycler view callback we will fetch new image list with offset. |    |
+| May 28 to June 4 | Store search results in local database to show searched history. Restrict the search results to images, or make sure no crash happen when opening exotic formats such as SVGs or other formats, show search history if search query is null |   |
 | June 5 to June 10  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |  |
 | June 11 to June 15  | **Phase I evaluation**  |  |
-| June 16 to June 24  |   |  |
-| June 25 to July 1  |   |  |
-| July 2 to July 8  | Release (at least in alpha), write documentation, test, fix bugs  |  |
+| June 16 to June 24  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tablayout or some other layout), Discuss UI Mockup for category Activity with mentors  |  |
+| June 25 to July 1  | Implement category search using the same API and show it in category search fragment/child fragment. Show search history from local database if query is null |  |
+| July 2 to July 8  | Implement the category activity, which shows the sub-categories and the images present in that category |  |
 | July 9 to July 13  | **Phase II evaluation**  |  |
-| July 14 to July 22  |    |   |
-| July 23 to July 29  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |   |
-| July 30 to August 5  |   |   |
-| August 6 to August 13  |   |  weekly report and blog and a blog describing the whole experience of internship |
+| July 14 to July 22  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) |   |
+| July 23 to July 29  | Link image search with already existing media details page, making changes in media details fragment for extra details like author name (if it wasn't done already on featured image fragment) otherwise will search for APIs  |   |
+| July 30 to August 5  | Read about FastCCI.  |  |
+| August 6 to August 13  | fixing bugs, final code documentation, final review  |  weekly report and blog and a blog describing the whole experience of internship |
 | August 14 to August 21  | Mentors submit final student evaluations.  |  |
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |  |
 |--------------|-------------------|
@@ -109,7 +109,7 @@ I would be really great for me to apply my skills and contribute to such an orga
 
 ==Past Experience
 
-I’ve been doing Android development since my first year. My first project was a Home Automation app to control LED lights using our mobile phone(Raspberry Pi behaving as a server)that I built in a hackathon. After that, I had started making apps for my learning purpose. Apart from the prototypes, I had also developed 2 apps that are in Google Play.
+I’ve been doing Android development since my first year. My first project was a Home Automation app to control LED lights using our mobile phone(Raspberry Pi behaving as a server)that I built in a hackathon. After that, I had started making apps for my learning purpose. Apart from the prototypes, I had also developed 2 apps that are on Google Play.
 
 **Spectrum'18:** 
 I had developed this app for our departmental fest of electronics engineering (Spectrum). It has features like login, OTP verification using the phone number, Show list of events day wise, register for events, send notification for events.
@@ -118,7 +118,7 @@ I had developed this app for our departmental fest of electronics engineering (S
 - Github Link: https://github.com/Tech-ISM/spectrum-android-app
 
 **Brand Store:** 
-It is an app where users can get offers from nearby shops of different categories across their city. Shops can also register them and show their offers to the users of the app. Although the startup is closed now. but the app is still in google play.
+It is an app where users can get offers from nearby shops of different categories across their city. Shops can also register them and show their offers to the users of the app. Although the startup is closed now. but the app is still on google play.
 
 - Google Play Link: https://play.google.com/store/apps/details?id=com.codenicely.brandstore.project&hl=en
 - Github Link: https://github.com/CodeNicely/OfferCartApp
