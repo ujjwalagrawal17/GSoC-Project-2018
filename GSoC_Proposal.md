@@ -13,10 +13,10 @@ Typical working hours: Between 1 pm and 11 pm UTC +5:30
 
 
 ===Synopsis
-About the app:
+**About the app:**
 The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to Wikimedia Commons. Wikimedia commons accept only freely licensed media files (that are not subject to any copyright). Users can upload images and then add various tags specific to them such as category, title, and description, license.
 
-About the project:
+**About the project:**
 This project is aimed at providing an option to browse/search the Wikimedia Commons using the app.
 
 **Why this feature is needed?**
@@ -110,60 +110,77 @@ I would be really great for me to apply my skills and contribute to such an orga
 
 ==Past Experience
 
-I’ve been doing Android development in my First year. My first project was a Home Automation app to control LED lights using our mobile phone(Raspberry Pi behaving as a server)that I built in a hackathon. Since I am a part of CyberLabs (Cyber Society of my College), we organize sessions to teach juniors the basics of Technologies. After that I had made several projects for my learning and few apps.  for various startups across India. Some of them are :
+I’ve been doing Android development since my first year. My first project was a Home Automation app to control LED lights using our mobile phone(Raspberry Pi behaving as a server)that I built in a hackathon. After that, I had started making apps for my learning purpose. I liked making prototypes but I have always wanted to make apps that affect people's life. Apart from the prototype, I had also developed some apps that are in Google Play.
 
-1. VegWorld: An Grocery Delivery App 
-- Google Play Link (https://play.google.com/store/apps/details?id=com.grocery.codenicely.vegworld_new&hl=en)
-2. Easy Invoice Manager: App to manage digital Invoices, Quotations, Expenses. Also, the user can share, mail, print the invoices. 
-- Google Play Link (https://play.google.com/store/apps/details?id=com.asap.codenicely.pdf.gstinvoicing.free.mobile.easy.gst.invoice.quick.quickinvoice.gstinvoicing&hl=en)
+Brand Store: It is an app where users can get offers from nearby shops of different categories across their city. Shops can also register them and show their offers to the users of the app. Although the startup is closed now. but the app is still in google play.
+- Google Play Link: https://play.google.com/store/apps/details?id=com.codenicely.brandstore.project&hl=en
+- Github Link: https://github.com/CodeNicely/OfferCartApp
 
-=== 
+Spectrum'18: I had developed 
+- Google Play Link https://play.google.com/store/apps/details?id=com.ujjwalagrawal.spectrum&hl=en
+
+
+Apart from this, I also have received the Google India Challenge scholarship for Android Developer nanodegree .  have made 2 projects under it as of now.
 
 
 === Contributions to Wikimedia Commons App
 
-It has been an enriching experience contributing to the app and I look forward to continuing contributing to it. A list of my contributions is as follows :
+It has been an enriching experience contributing to the app and I look forward to continuing contributing to it. For all I have learned so far is that your contributions is not just the number of Pull Requests that you’ve got merged. But contributions can be in various forms like:
 
-**Pull Requests: **
+- Creating New Issues
+- Finding Bugs
+- Helping New Contributors
+- Communicating with Moderators and helping them
 
--  [Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) (Merged)  
+====Contribution related to browse/search feature:
 
--  [Rate Us feature ](https://github.com/commons-app/apps-android-commons/pull/1188) (Merged)
+I’ve been working on this feature for some time now. I had made a small prototype for the same. 
 
--  [Changed WebView to CustomTabs in App](https://github.com/commons-app/apps-android-commons/pull/1185) (Merged)
+- **Description**
 
--  [Created Template for Pull Request](https://github.com/commons-app/apps-android-commons/pull/1152) (Merged)
+> - Added a Separate activity for search in which an edit text is present.
+> - Implemented a viewpager along with a tab layout in the activity
+> - Added Browse Image fragment, Browse Category Fragment in the item of the viewpager.
+> - Now if a text is changed in the activity I am calling update list method in both the fragments with search query as a parameter.
+> - Method update list updates the list by fetching details from [Wikimedia API: Search](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch)
+> - For updating the list in recycler view I had added AdapterFactory, Renderer similar to other modules.
+> - No searches are saved in the local database now but we can implement it for showing list of recently used searches.  
+ 
+- Video Link: https://goo.gl/7XUv9w
+- Github Link : https://github.com/ujjwalagrawal17/apps-android-commons/tree/browse
 
--  [Created Template for Issue](https://github.com/commons-app/apps-android-commons/pull/1145) (Merged) 
+====Pull Requests: 
 
--  [Change Toolbar color](https://github.com/commons-app/apps-android-commons/pull/1190) (Closed) 
+- **Merged Pull Requests: **
 
--  [Add Option to delete the contributed image](https://github.com/commons-app/apps-android-commons/pull/1142) (Closed) 
+> -  [Change toast to sanckbar in App](https://github.com/commons-app/apps-android-commons/pull/1307) 
+> -  [Update Issue Template](https://github.com/commons-app/apps-android-commons/pull/1286) 
+> -  [Improvement in Login UI](https://github.com/commons-app/apps-android-commons/pull/1280) 
+> -  [Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) 
+> -  [Rate Us feature ](https://github.com/commons-app/apps-android-commons/pull/1188)
+> -  [Changed WebView to CustomTabs in App](https://github.com/commons-app/apps-android-commons/pull/1185)
+> -  [Created Template for Pull Request](https://github.com/commons-app/apps-android-commons/pull/1152)
+> -  [Created Template for Issue](https://github.com/commons-app/apps-android-commons/pull/1145)
 
-**Issues:**
+- **Closed Pull Requests: **
 
--  [Add FAQs page in Commons App](https://github.com/commons-app/apps-android-commons/issues/1246) (Closed)
+> -  [Change Toolbar color](https://github.com/commons-app/apps-android-commons/pull/1190)
+> -  [Add Option to delete the contributed image](https://github.com/commons-app/apps-android-commons/pull/1142) 
 
--  [Add Option to donate to Wikimedia Foundation](https://github.com/commons-app/apps-android-commons/issues/1231) (Closed)
+- **[Open Pull Requests](https://github.com/commons-app/apps-android-commons/pulls/ujjwalagrawal17)** 
 
--  [Change toolbar color to primary color](https://github.com/commons-app/apps-android-commons/issues/1189) (Closed)
+====Issues:
 
--  [Rate Us feature in nav drawer](https://github.com/commons-app/apps-android-commons/issues/1187) (Closed)
+- **Closed Issues:**
 
--  [Adding PULL_REQUEST_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1146) (Closed)
+> -  [Add FAQs page in Commons App](https://github.com/commons-app/apps-android-commons/issues/1246)
+> -  [Add Option to donate to Wikimedia Foundation](https://github.com/commons-app/apps-android-commons/issues/1231) 
+> -  [Change toolbar color to primary color](https://github.com/commons-app/apps-android-commons/issues/1189)
+> -  [Rate Us feature in nav drawer](https://github.com/commons-app/apps-android-commons/issues/1187)
+> -  [Adding PULL_REQUEST_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1146) 
+> -  [Adding ISSUE_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1144)
+> -  [Change Web views to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143)
+> -  [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140)
+> -  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) 
 
--  [Adding ISSUE_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1144) (Closed)
-
--  [Change Web views to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143) (Closed)
-
--  [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140) (Closed)
-
--  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) (Closed)
-
--  [Add Share app option inside app](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
-
--  [Option to edit Images in App before Uploading](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
-
--  [Change MediaDetailFragment Design](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
-
--  [Add Option to delete the uploaded image.](https://github.com/commons-app/apps-android-commons/issues/1138) (Open)
+- **[Open Issues](https://github.com/commons-app/apps-android-commons/issues/created_by/ujjwalagrawal17)**  
