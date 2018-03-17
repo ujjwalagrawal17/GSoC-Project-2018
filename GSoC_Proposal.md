@@ -26,18 +26,18 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 **What can be implemented ?**
 - Image Search on Wikimedia Commons using a title.
 - Restrict the search results to images, or make sure no crash happens when opening exotic formats such as SVGs or sounds
-- Link to the Media Details activity to see an image's details (Needs feedback)
-- Category Search on Opening details shows the sub-categories and the images present in that category
-- Modify the category activity to show the best images first. (Bonus)
+- Search history of images and categories.
+- Category Search on Opening details shows the sub-categories and the images present in that category/subcategories inside it.
 
 **How it can be implemented?**
 - Explore Mediawiki APIs to search images using titles, search categories.(Probably using SEARCH API) 
-- Implement async calls requests to request Search pictures 
-- Develop feature for displaying search results in Featured Images Activity.
-- Implement async calls requests to request Search Categories 
-- Implement the category activity, which shows the sub-categories and the images present in that category
-- Debugging, testing followed by code documentation.
-- Release (at least in alpha)
+- Implement Search activity which will contain 2 fragments (1 for showing image list, 1 for showing category list)
+- 1 fragment will be new instance of Featured images fragment to reuse the code and functionality. Other will be a new fragment for showing category list.
+- Implement async calls requests to request Search pictures, Search Categories dynamically on page scroll. 
+- Develop feature for displaying search results in Search Activity.
+- Saving the opened category/ images in local database and showing in recently searched list(both categories and images) if search query is empty.
+- Implement the category activity, which shows the sub-categories and the images present in that category(reusing featured images fragment)
+- Improving category activity by showing best images(images inside subcategory) 
 
 **Mentors** 
 - @Nes 
@@ -45,27 +45,23 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 
 
 ===Timeline
-// To be updated ..
 
 | **Period** | **Task** | **Deliverables** |
 | ------------- | ------------- | ---------------|
-| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architecture and Wikimedia APIs, Learning JavaRx, Getting Familiar with featured images scrollable activity, fragment implementation, Link image search with already existing media details page, making changes in media details fragment for extra details like author name (if it wasn't done already on featured image fragment)  | Community bonding report and blogs about the experience, app architecture |
+| April 23 to May 14  | **Community bonding period.** - getting familiar with the app architecture and Wikimedia APIs, Learning JavaRx, Getting Familiar with featured images scrollable activity, fragment implementation, Link featured images fragment with already existing media details page, making changes in media details fragment for extra details like author name (if it wasn't done already on featured image fragment)  | Community bonding report and blogs about the experience, app architecture |
 | May 14 to May 21  | Add search button/layout in featured image scrollable activity to open Search Activity/Fragment and decide UI mockup for search activity including image search list,  search history. | Search button/layout in Featured Image Activity, weekly report, and blog |
-| May 21 to May 28  |  Add a new instance of featured image scrollable fragment/child fragment in search activity/fragment. Modify featured image scrollable fragment to show search image results. Use the Mediawiki [Wikimedia Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) to search image list results  (using title). The list will load Search results dynamically on page scroll. using recycler view callback we will fetch new image list with offset. | Working Search images feature with dynamic scrolling, weekly report, and blog |
+| May 21 to May 28  |  Add a new instance of featured image scrollable fragment/child fragment in search activity/fragment. Modify featured image scrollable fragment to show search image results. Use the [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) to search image list results  (using title). The list will load Search results dynamically on page scroll. using recycler view callback we will fetch new image list with offset. | Working Search images feature with dynamic scrolling, weekly report, and blog |
 | May 28 to June 4 | Store search results in the local database to show search history. Restrict the search results to images, or making sure no crash happens when opening exotic formats such as SVGs or other formats, show search history if the search query is null | Image Search History, weekly report, and blog  |
-| June 5 to June 10  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) | Write documentation, Release App in google play (at least in alpha), weekly report, and blog |
+| June 5 to June 10  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha), weekly report, and blog |
 | June 11 to June 15  | **Phase I evaluation** |  |
-| June 16 to June 24  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tab layout or some other layout), Implement category search using the same API and show it in category search fragment/child fragment. Show search history from the local database if search query is null | Category Search feature with dynamic scrolling, Category Search history, weekly report, and blog |
-| June 25 to July 1  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Discuss UI Mockup for Category Activity with mentors. | Link to finalized API and fields that will be fetched, weekly report, and blog |
-| July 2 to July 8  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment here also will reuse the code and the functionality of viewing media details) | Category Activity containing list of subcategories, images in that category, weekly report, and blog |
+| June 16 to June 24  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tab layout or some other layout), Implement category search using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) and show it in category search fragment/child fragment. Show search history from the local database if search query is null | Category Search feature with dynamic scrolling, Category Search history, weekly report, and blog |
+| June 25 to July 1  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Decide UI mockup for Category Activity | Link to finalized API to fetch category details and fields that will be fetched, weekly report, and blog |
+| July 2 to July 8  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category Activity containing list of subcategories, images in that category, weekly report, and blog |
 | July 9 to July 13  | **Phase II evaluation** |  |
-
-
-
-| July 14 to July 22  | Testing, Bug fixes, Writing documentation. Code cleanup for release (at least in alpha) | Write documentation, Release App in google play (at least in alpha). | Write documentation, Release App in google play (at least in alpha), weekly report, and blog |
-| July 23 to July 29  | Read about [FastCCI](https://commons.wikimedia.org/wiki/Help:FastCCI)/ find other methods to show the best images first.(images inside subcategories) |  |
-| July 30 to August 5  | Start implementing the API for the same, making necessary changes in featured images fragment |  |
-| August 6 to August 13  | Bug fixes, Writing documentation and Updating appropriate guides. Code cleanup for final submission. |  weekly report and blog and a blog describing the whole experience of internship |
+| July 14 to July 22  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha), weekly report, and blog |
+| July 23 to July 29  | Read about [FastCCI](https://commons.wikimedia.org/wiki/Help:FastCCI)/ Search other APIs to show the best images first.(images inside subcategories) | Link to finalized API to fetch images inside subcategories, weekly report, and blog |
+| July 30 to August 5  | Modify existing APIs for fetching image list of category to show best images(images inside subcategories) | Updated category activity with the best images first, weekly report, and blog |
+| August 6 to August 13  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Code cleanup for final submission. |  weekly report and blog and a blog describing the whole experience of internship |
 | August 14 to August 21  | Mentors submit final student evaluations.  |  |
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |  |
 |--------------|-------------------|
@@ -154,7 +150,7 @@ I’ve been working on this feature for some time now. I had made a small protot
 > - No searches are saved in the local database now but we can implement it for showing list of recently used searches.  
  
 - Video Link: https://goo.gl/7XUv9w
-- Github Link : https://github.com/ujjwalagrawal17/apps-android-commons/tree/browse
+- Github Link: https://github.com/ujjwalagrawal17/apps-android-commons/tree/browse
 
 ====Pull Requests: 
 
