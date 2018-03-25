@@ -29,6 +29,7 @@ The goal of this project is to enhance the already working Wikimedia Commons App
 - Category Search  
 - Previous Search queries of images and categories ( Recent Search history )
 - Shows the sub-categories and the images present in that category/subcategories inside it
+- Allow users to skip login and browse and search in the app
 
 **How it can be implemented?**
 - Explore Mediawiki APIs to search images using titles, search categories.(Probably using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch)) 
@@ -72,16 +73,16 @@ I’ve been working on this feature for some time now. I had made a small protot
 | May 28 to June 4 | Store search results in the local database to show search history. Restrict the search results to images, or making sure no crash happens when opening exotic formats such as SVGs or other formats, show search history if the search query is null | Image Search History  |
 | June 5 to June 11  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha) |
 | June 11 to June 15  | **Phase I evaluation** |  |
-| June 12 to June 18  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tab layout or some other layout) |  Improvements in Search Activity UI, Mockup for Category Search Fragment |
+| June 12 to June 18  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using viewpager /tab layout or some other layout) |  Improvements in Search Activity UI, Category Search with Mock Data  |
 | June 19 to June 25  |  Implement category search using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) and show it in category search fragment/child fragment. Show search history from the local database if a search query is null | Category Search feature with dynamic scrolling, Category Search history |
 | June 26 to July 2  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Decide and Create UI mockup for Category Activity | Link to finalized API to fetch category details and fields that will be fetched, MockUp for Category activity |
-| July 3 to July 9  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category activity containing list of subcategories,  images in that category |
+| July 3 to July 9  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category activity containing a list of subcategories,  images in that category |
 | July 9 to July 13  | **Phase II evaluation** |  |
-| July 10 to July 16  |  |  |
-| July 17 to July 23  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha) |
+| July 10 to July 16  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha) |
+| July 17 to July 23  | Improvements based on the feedback received from mentors, other community members, Write  tests for each module Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha) |
 | July 24 to July 30  | Read about [FastCCI](https://commons.wikimedia.org/wiki/Help:FastCCI)/ Search other APIs to show the best images first.(images inside subcategories) | Link to finalized API to fetch images inside subcategories |
 | July 31 to August 6  | Modify existing APIs for fetching image list of category to show best images(images inside subcategories) | Updated category activity with the best images first |
-| August 7 to August 13  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Code cleanup for final submission. | Project Presentation and a blog describing the whole experience of internship |
+| August 7 to August 13  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation, Working on Project Presentation. Code cleanup for final submission. | Project Presentation and a blog describing the whole experience of internship |
 | August 14 to August 21  | Mentors submit final student evaluations.  |  |
 | August 22  | **Final results of Google Summer of Code 2018 announced**  |  |
 |--------------|-------------------|
