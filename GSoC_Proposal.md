@@ -40,8 +40,8 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 - Improving category activity by showing best images(images inside subcategory) 
 
 **Mentors** 
-- @Nes 
-- @Nicolas_Raoul
+- Mentor: @Nes 
+- Co-mentor: @Nicolas_Raoul
 
 
 ===Timeline
