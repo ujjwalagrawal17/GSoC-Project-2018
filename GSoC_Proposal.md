@@ -36,11 +36,9 @@ The goal of this project is to enhance the already working Wikimedia Commons App
 - One fragment will be a new instance of Featured images fragment to reuse the code and functionality, other will be a new fragment for showing category list
 - Implement async call requests to request Search pictures, Search Categories dynamically on page scroll 
 - Develop feature for displaying search results in Search Activity
-- Saving the opened category/ images in the local database and showing in recently searched list(both categories and images) if search query is empty
+- Saving the clicked category/ images in the local database and showing in the recently searched list ( both categories and images ) if a search query is empty
 - Implement the category activity, which shows the sub-categories and the images present in that category(reusing featured images fragment)
 - Improving category activity by showing best images(images inside subcategory) 
-
-
 
 ====Prototype:
 
@@ -74,10 +72,10 @@ I’ve been working on this feature for some time now. I had made a small protot
 | May 28 to June 4 | Store search results in the local database to show search history. Restrict the search results to images, or making sure no crash happens when opening exotic formats such as SVGs or other formats, show search history if the search query is null | Image Search History  |
 | June 5 to June 11  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha) |
 | June 11 to June 15  | **Phase I evaluation** |  |
-| June 12 to June 18  |  |  |
-| June 19 to June 25  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tab layout or some other layout), Implement category search using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) and show it in category search fragment/child fragment. Show search history from the local database if search query is null | Category Search feature with dynamic scrolling, Category Search history |
-| June 26 to July 2  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Decide UI mockup for Category Activity | Link to finalized API to fetch category details and fields that will be fetched |
-| July 3 to July 9  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category Activity containing list of subcategories, \ images in that category |
+| June 12 to June 18  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tab layout or some other layout) |  Improvements in Search Activity UI, Mockup for Category Search Fragment |
+| June 19 to June 25  |  Implement category search using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) and show it in category search fragment/child fragment. Show search history from the local database if a search query is null | Category Search feature with dynamic scrolling, Category Search history |
+| June 26 to July 2  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Decide and Create UI mockup for Category Activity | Link to finalized API to fetch category details and fields that will be fetched, MockUp for Category activity |
+| July 3 to July 9  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category activity containing list of subcategories,  images in that category |
 | July 9 to July 13  | **Phase II evaluation** |  |
 | July 10 to July 16  |  |  |
 | July 17 to July 23  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha) |
