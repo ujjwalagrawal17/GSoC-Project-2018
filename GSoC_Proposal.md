@@ -57,9 +57,9 @@ This project is aimed at providing an option to browse/search the Wikimedia Comm
 | June 12 to June 18  |  |  |
 | June 19 to June 25  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using view pager /tab layout or some other layout), Implement category search using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) and show it in category search fragment/child fragment. Show search history from the local database if search query is null | Category Search feature with dynamic scrolling, Category Search history |
 | June 26 to July 2  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Decide UI mockup for Category Activity | Link to finalized API to fetch category details and fields that will be fetched |
-| July 3 to July 9  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category Activity containing list of subcategories, images in that category |
+| July 3 to July 9  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category Activity containing list of subcategories, \ images in that category |
 | July 9 to July 13  | **Phase II evaluation** |  |
-| July 10 to July 16  | **Phase II evaluation** |  |
+| July 10 to July 16  |  |  |
 | July 17 to July 23  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. Release app in Google play (at least in alpha) | Write documentation, Release App in google play (at least in alpha) |
 | July 24 to July 30  | Read about [FastCCI](https://commons.wikimedia.org/wiki/Help:FastCCI)/ Search other APIs to show the best images first.(images inside subcategories) | Link to finalized API to fetch images inside subcategories |
 | July 31 to August 6  | Modify existing APIs for fetching image list of category to show best images(images inside subcategories) | Updated category activity with the best images first |
@@ -161,7 +161,7 @@ I’ve been working on this feature for some time now. I had made a small protot
 
 - **Merged Pull Requests: **
 
-> -  [Change toast to sanckbar in App](https://github.com/commons-app/apps-android-commons/pull/1307) 
+> -  [Change toast to snackbar in App](https://github.com/commons-app/apps-android-commons/pull/1307) 
 > -  [Update Issue Template](https://github.com/commons-app/apps-android-commons/pull/1286) 
 > -  [Improvement in Login UI](https://github.com/commons-app/apps-android-commons/pull/1280) 
 > -  [Faqs added in About Activity](https://github.com/commons-app/apps-android-commons/pull/1256) 
@@ -189,6 +189,7 @@ I’ve been working on this feature for some time now. I had made a small protot
 > -  [Adding ISSUE_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1144)
 > -  [Change Web views to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143)
 > -  [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140)
-> -  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) 
+> -  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1139) 
+> -  [Add Option to delete the uploaded image](https://github.com/commons-app/apps-android-commons/issues/1138) 
 
 - **[Open Issues](https://github.com/commons-app/apps-android-commons/issues/created_by/ujjwalagrawal17)**  
