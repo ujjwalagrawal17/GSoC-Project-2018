@@ -17,27 +17,47 @@ Typical working hours: Between 1 pm and 11 pm UTC +5:30
 The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to Wikimedia Commons. Wikimedia commons accept only freely licensed media files (that are not subject to any copyright). Users can upload images and then add various tags specific to them such as category, title, and description, license.
 
 **About the project:**
-This project is aimed at providing an option to browse/search the Wikimedia Commons using the app.
+The goal of this project is to enhance the already working Wikimedia Commons App by implementing an option to browse/search the Wikimedia Commons Repository.
 
 **Why this feature is needed?**
-- More and more, users are asking (as evidenced by Play Store feedback), people want to be able to also browse existing Commons images via the app.
-- Quality of uploads will increase by letting users see other people's work.
+- More and more, users are asking (as evidenced by Play Store feedback), people want to be able to also browse existing Commons images via the app
+- Quality of uploads will increase by letting users see other people's work
 
 **What can be implemented ?**
-- Image Search on Wikimedia Commons using a title.
-- Restrict the search results to images, or make sure no crash happens when opening exotic formats such as SVGs or sounds
-- Search history of images and categories.
-- Category Search on Opening details shows the sub-categories and the images present in that category/subcategories inside it.
+- Image Search on Wikimedia Commons using a text
+- Restrict the search results to images
+- Category Search  
+- Previous Search queries of images and categories ( Recent Search history )
+- Shows the sub-categories and the images present in that category/subcategories inside it
 
 **How it can be implemented?**
 - Explore Mediawiki APIs to search images using titles, search categories.(Probably using SEARCH API) 
 - Implement Search activity which will contain 2 fragments (1 for showing image list, 1 for showing category list)
-- 1 fragment will be new instance of Featured images fragment to reuse the code and functionality. Other will be a new fragment for showing category list.
-- Implement async calls requests to request Search pictures, Search Categories dynamically on page scroll. 
-- Develop feature for displaying search results in Search Activity.
-- Saving the opened category/ images in the local database and showing in recently searched list(both categories and images) if search query is empty.
+- One fragment will be a new instance of Featured images fragment to reuse the code and functionality, other will be a new fragment for showing category list
+- Implement async call requests to request Search pictures, Search Categories dynamically on page scroll 
+- Develop feature for displaying search results in Search Activity
+- Saving the opened category/ images in the local database and showing in recently searched list(both categories and images) if search query is empty
 - Implement the category activity, which shows the sub-categories and the images present in that category(reusing featured images fragment)
 - Improving category activity by showing best images(images inside subcategory) 
+
+
+
+====Prototype:
+
+I’ve been working on this feature for some time now. I had made a small prototype for the same. 
+
+- **Description**
+
+> - Added a Separate activity for search in which an edit text is present.
+> - Implemented a viewpager along with a tab layout in the activity
+> - Added Browse Image fragment, Browse Category Fragment in the item of the viewpager.
+> - Now if a text is changed in the activity I am calling update list method in both the fragments with search query as a parameter.
+> - Method update list updates the list by fetching details from [Wikimedia API: Search](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch)
+> - For updating the list in recycler view I had added AdapterFactory, Renderer similar to other modules.
+
+- Video Link: https://goo.gl/7XUv9w
+- Github Link: https://github.com/ujjwalagrawal17/apps-android-commons/tree/browse
+
 
 **Mentors** 
 - Mentor: @Nes 
@@ -139,23 +159,6 @@ It has been an enriching experience contributing to the app and I look forward t
 - Finding Bugs
 - Helping New Contributors
 - Communicating with Moderators and helping them
-
-====Contribution related to browse/search feature:
-
-I’ve been working on this feature for some time now. I had made a small prototype for the same. 
-
-- **Description**
-
-> - Added a Separate activity for search in which an edit text is present.
-> - Implemented a viewpager along with a tab layout in the activity
-> - Added Browse Image fragment, Browse Category Fragment in the item of the viewpager.
-> - Now if a text is changed in the activity I am calling update list method in both the fragments with search query as a parameter.
-> - Method update list updates the list by fetching details from [Wikimedia API: Search](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch)
-> - For updating the list in recycler view I had added AdapterFactory, Renderer similar to other modules.
-> - No searches are saved in the local database now but we can implement it for showing list of recently used searches.  
- 
-- Video Link: https://goo.gl/7XUv9w
-- Github Link: https://github.com/ujjwalagrawal17/apps-android-commons/tree/browse
 
 ====Pull Requests: 
 
