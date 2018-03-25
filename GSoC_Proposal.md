@@ -163,7 +163,7 @@ It has been an enriching experience contributing to the app and I look forward t
 
 ====Pull Requests: 
 
-- **Merged Pull Requests: **
+- **Merged Pull Requests: (8/12)**
 
 > -  [Change toast to snackbar in App](https://github.com/commons-app/apps-android-commons/pull/1307) 
 > -  [Update Issue Template](https://github.com/commons-app/apps-android-commons/pull/1286) 
@@ -183,7 +183,7 @@ It has been an enriching experience contributing to the app and I look forward t
 
 ====Issues:
 
-- **Closed Issues:**
+- **Closed Issues:(10/16)**
 
 > -  [Add FAQs page in Commons App](https://github.com/commons-app/apps-android-commons/issues/1246)
 > -  [Add Option to donate to Wikimedia Foundation](https://github.com/commons-app/apps-android-commons/issues/1231) 
@@ -193,7 +193,7 @@ It has been an enriching experience contributing to the app and I look forward t
 > -  [Adding ISSUE_TEMPLATE.md file](https://github.com/commons-app/apps-android-commons/issues/1144)
 > -  [Change Web views to Chrome Custom Tabs in App](https://github.com/commons-app/apps-android-commons/issues/1143)
 > -  [Option to Change Recent Uploads Design](https://github.com/commons-app/apps-android-commons/issues/1140)
-> -  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1139) 
-> -  [Add Option to delete the uploaded image](https://github.com/commons-app/apps-android-commons/issues/1138) 
+> -  [Add Option to delete the uploaded image](https://github.com/commons-app/apps-android-commons/issues/1139) 
+> -  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) 
 
 - **[Open Issues](https://github.com/commons-app/apps-android-commons/issues/created_by/ujjwalagrawal17)**  
