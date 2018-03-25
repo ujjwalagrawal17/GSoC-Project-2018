@@ -26,20 +26,22 @@ The goal of this project is to enhance the already working Wikimedia Commons App
 **What can be implemented ?**
 - Image Search on Wikimedia Commons using a text
 - Restrict the search results to images
-- Category Search  
+- Category Search 
 - Previous Search queries of images and categories ( Recent Search history )
 - Shows the sub-categories and the images present in that category/subcategories inside it
 - Allow users to skip login and browse and search in the app
 
 **How it can be implemented?**
-- Explore Mediawiki APIs to search images using titles, search categories.(Probably using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch)) 
+- Explore Mediawiki APIs to search images using titles, search categories.(Probably using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch))
 - Implement Search activity which will contain 2 fragments (1 for showing image list, 1 for showing category list)
 - One fragment will be a new instance of Featured images fragment to reuse the code and functionality, other will be a new fragment for showing category list
 - Implement async call requests to request Search pictures, Search Categories dynamically on page scroll 
 - Develop feature for displaying search results in Search Activity
-- Saving the clicked category/ images in the local database and showing in the recently searched list ( both categories and images ) if a search query is empty
-- Implement the category activity, which shows the sub-categories and the images present in that category(reusing featured images fragment)
-- Improving category activity by showing best images(images inside subcategory) 
+- Saving the clicked category/images in the local database
+- Showing in the recently searched list ( both categories and images ) if a search query is empty
+- Implement the category activity, which shows the sub-categories and the images present in that category ( if possible reusing featured images fragment)
+- Improving category activity by showing best images ( images inside subcategory )
+- 
 
 ====Prototype:
 
