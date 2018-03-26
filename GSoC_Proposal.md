@@ -197,3 +197,28 @@ It has been an enriching experience contributing to the app and I look forward t
 > -  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) 
 
 - **[Open Issues](https://github.com/commons-app/apps-android-commons/issues/created_by/ujjwalagrawal17)**  
+
+
+
+======================================================================================================================
+
+Questions
+Should the timeline be modified in any other way? 
+For example,
+Decreasing time for some feature and giving it to others, Changing order of doing things.
+Should the proposal be modified in any other way?
+Adding more detail for something, Removing some detail, Changing the order of writing things, Anything wrongly written, Any comments on the readability of the proposal
+
+
+Should I add skip login and browse commons or any other Feature in My proposal?
+
+I will need to add a skip button in login page which will take to featured Images Activity , make changes in Navigation Base activity to hide Navigation Drawer items that needs login and show a login item if user is not logged in by checking from shared preferences.
+
+Should I add search by description feature in images and category search?
+
+I will need to add a spinner/ menu in search activity for it. And choose title and description in it. Fetch items based on item selected in menu.
+
+
+
+I am planning to submit my proposal by 27th morning. I would be grateful if you can give me some suggestions before that and sorry for the delay. I implemented changes told by Nicolas in phabricator in this proposal.
+
