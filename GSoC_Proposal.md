@@ -14,34 +14,37 @@ Typical working hours: Between 1 pm and 11 pm UTC +5:30
 
 ===Synopsis
 **About the app:**
-The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to Wikimedia Commons. Wikimedia commons accept only freely licensed media files (that are not subject to any copyright). Users can upload images and then add various tags specific to them such as category, title, and description, license.
+The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to Wikimedia Commons. Wikimedia Commons accepts only freely licensed media files (that are not subject to any copyright). Users can upload images and then add various tags specific to them such as category, title, description, and license.
 
 **About the project:**
 The goal of this project is to enhance the already working Wikimedia Commons App by implementing an option to browse/search the Wikimedia Commons Repository.
 
 **Why this feature is needed?**
-- More and more, users are asking (as evidenced by Play Store feedback), people want to be able to also browse existing Commons images via the app
+- More and more users are asking (as evident by Play Store feedback)to be able to also browse existing Commons images via the app
 - Quality of uploads will increase by letting users see other people's work
 
 **What can be implemented ?**
 - Image Search on Wikimedia Commons using a text
 - Restrict the search results to images
 - Category Search 
-- Previous Search queries of images and categories ( Recent Search history )
-- Shows the sub-categories and the images present in that category/subcategories inside it
+- Previous Search queries of images and categories (Recent Search history)
+- Shows the sub-categories and the images present in that category
 - Allow users to skip login and browse and search in the app
 
 **How it can be implemented?**
 - Explore Mediawiki APIs to search images using titles, search categories.(Probably using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch))
-- Implement Search activity which will contain 2 fragments (1 for showing image list, 1 for showing category list)
-- One fragment will be a new instance of Featured images fragment to reuse the code and functionality, other will be a new fragment for showing category list
-- Implement async call requests to request Search pictures, Search Categories dynamically on page scroll 
-- Develop feature for displaying search results in Search Activity
+- Implement search activity which will contain 2 tabs 
+> - tab 1 for showing image list (if possible reusing featured images fragment) 
+> - tab 2 for showing category list
+- Implement async call requests to request search pictures, search categories dynamically on page scroll 
+- Develop feature for displaying search results in search activity
 - Saving the clicked category/images in the local database
-- Showing in the recently searched list ( both categories and images ) if a search query is empty
-- Implement the category activity, which shows the sub-categories and the images present in that category ( if possible reusing featured images fragment)
-- Improving category activity by showing best images ( images inside subcategory )
-- 
+- Showing in the recently searched list (both categories and images) if a search query is empty
+- Implement the category activity which will contain 2 tabs
+> - tab 1 for showing sub-category list
+> - tab 2 for showing images inside the category (if possible reusing featured images fragment) 
+- Improving category activity by showing best images (images inside subcategory) using FastCCI
+- Add an option to skip login in Login Page which redirects to Featured Image Activity
 
 ====Prototype:
 
@@ -49,15 +52,15 @@ I’ve been working on this feature for some time now. I had made a small protot
 
 - **Description**
 
-> - Added a Separate activity for search in which an edit text is present.
+> - Added a Separate activity for search in which an edit text is present
 > - Implemented a viewpager along with a tab layout in the activity
-> - Added Browse Image fragment, Browse Category Fragment in the item of the viewpager.
-> - Now if a text is changed in the activity I am calling update list method in both the fragments with search query as a parameter.
+> - Added Browse Image fragment, Browse Category Fragment in the item of the viewpager
+> - Now if a text is changed in the activity I call update list method in both the fragments with search query as a parameter
 > - Method update list updates the list by fetching details from [Wikimedia API: Search](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch)
 > - For updating the list in recycler view I had added AdapterFactory, Renderer similar to other modules.
 
-- Video Link: https://goo.gl/7XUv9w
-- Github Link: https://github.com/ujjwalagrawal17/apps-android-commons/tree/browse
+- **Video Link:** https://goo.gl/7XUv9w
+- **Github Link:** https://github.com/ujjwalagrawal17/apps-android-commons/tree/browse
 
 
 **Mentors** 
@@ -69,24 +72,24 @@ I’ve been working on this feature for some time now. I had made a small protot
 
 | **Period** | **Task** | **Deliverables** |
 | ------------- | ------------- | ---------------|
-| April 23 to May 14  | **Community bonding period.** - Communicate and bond with students and mentors, Create specific issues for the project, getting familiar with the app architecture and Wikimedia APIs, Learning RxJava, Getting Familiar with featured images scrollable activity, fragment implementation, Link featured images fragment with already existing media details page, making changes in media details fragment for extra details like author name (if it wasn't done already on featured image fragment)  | Community bonding report and blogs about the experience, app architecture |
-| May 14 to May 20  | Add search button/layout in featured image scrollable activity to open Search Activity and decide and create UI mockup for search activity including image search list, search history | Search button/layout in Featured Image Activity, Search Activity Mockup, Image Search with Mock Data  |
-| May 21 to May 27  |  Add a new instance of featured image scrollable fragment in search activity/fragment. Modify featured image scrollable fragment to show search image results. Use the [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) to search image list results  (using title). The list will load Search results dynamically on page scroll. using recycler view callback we will fetch new image list with offset. | Working Search images feature with dynamic scrolling |
-| May 28 to June 4 | Store search results in the local database to show search history ( previously opened images). Restrict the search results to images, or making sure no crash happens when opening exotic formats such as SVGs or other formats, show search history if the search query is null | Previously Searched Images  History  |
-| June 5 to June 11  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation.  | Write documentation, unit test |
+| April 23 to May 14  | **Community bonding period.** - Communicate and bond with students and mentors, Create specific issues for the project, Getting familiar with the app architecture and Wikimedia APIs, Learning RxJava, Getting Familiar with featured images scrollable activity, fragment implementation, Link featured images fragment with already existing media details page, making changes in media details fragment for extra details like author name (if it wasn't done already on featured image fragment)  | Community bonding report and blogs about the experience, app architecture |
+| May 14 to May 20  | Add search button/layout in featured image activity (linked with search activity), Decide and create search activity (including image search list) with mock data | Search button/layout in Featured Image Activity, Search Activity Mockup, Image Search with Mock Data |
+| May 21 to May 27  | Add a new instance of featured image scrollable fragment in search activity/fragment. Use the [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) to search image list results using text (search query). Modify featured image scrollable fragment to show search image results. The list will load Search results dynamically on page scroll. Using recyclerview onScrollChangeListener callback we will fetch new image list with offset and add it to previous list.  | Images feature with dynamic scrolling |
+| May 28 to June 4 | Create tables in local database (SqLite) for storing recently searched images, Store search results in the local database to show search history (previously opened images), Restrict the search results to images, Decide and create UI for recent images searches (image title and timer icon), Use content providers similar to already existing Category ContentProvider to Show image search history (previous search queries) if the search query is null  | Previously searched images history (recently searched images) |
+| June 5 to June 11  | Improvements based on the feedback received from mentors, other community members. Writing unit test for above implemented modules. Manual testing on different devices, emulators. Bug fixes, Writing documentation.  | Documentation of above modules, Unit test for image search, search history |
 | June 11 to June 15  | **Phase I evaluation** |  |
-| June 12 to June 18  | Modify layout of search activity to show both image list, category list fragment in it.(maybe using viewpager /tab layout or some other layout) |  Improvements in Search Activity UI, Category Search with Mock Data  |
-| June 19 to June 25  |  Implement category search using [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch) and show it in category search fragment/child fragment. Show search history from the local database if a search query is null | Category Search feature with dynamic scrolling, Category Search history |
-| June 26 to July 2  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Decide and Create UI mockup for Category Activity | Link to finalized API to fetch category details and fields that will be fetched, MockUp for Category activity |
-| July 3 to July 9  | Implement the category activity, which shows the sub-categories and the images present in that category (using featured image fragment to show category image list here also will reuse the code and the functionality of viewing media details) | Category activity containing a list of subcategories,  images in that category |
-| July 9 to July 13  | **Phase II evaluation** |  |
-| July 10 to July 16  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation. | Write documentation, unit test  |
-| July 17 to July 23  |  |  |
-| July 24 to July 30  | Read about [FastCCI](https://commons.wikimedia.org/wiki/Help:FastCCI)/ Search other APIs to show the best images first.(images inside subcategories) | Link to finalized API to fetch images inside subcategories |
-| July 31 to August 6  | Modify existing APIs for fetching image list of category to show best images(images inside subcategories) | Updated category activity with the best images first |
-| August 7 to August 13  | Improvements based on the feedback received from mentors, other community members, Testing, Bug fixes, Writing documentation, Working on Project Presentation. Code cleanup for final submission. | Project Presentation and a blog describing the whole experience of internship |
-| August 14 to August 21  | Mentors submit final student evaluations.  |  |
-| August 22  | **Final results of Google Summer of Code 2018 announced**  |  |
+| June 12 to June 18  | Modify layout of search activity to show both image list, category list fragment in it.(using viewpager and tablayout). Decide and create category search fragment using mock data | Improvements in Search Activity UI, Category Search with Mock Data |
+| June 19 to June 25  |  Implement category search using  [Mediawiki Search API](https://commons.wikimedia.org/w/api.php?action=help&modules=query%2Bsearch). Show it in category search fragment. Make the search dynamic similar to image search | Category search feature with dynamic scrolling |
+| June 26 to July 2  | Create tables in local database (SqLite) for storing recently searched categories. Store search results in the local database to show search history (previously opened categories). Decide and create UI for recent category searches (category name and timer icon). Show category search history (previous search queries) if the search query is null | Previously searched category history (recently searched categories) |
+| July 3 to July 9  | Start exploring APIs that can fetch category details (list of subcategories, media inside that categories). Decide and Create UI mock up for Category Activity (2 tabs with viewpager). One fragment for showing subcategory list, other fragment for showing images | Link to finalized API to fetch category details and fields that will be fetched, Category activity with mock data |
+| July 9 to July 13  | **Phase II evaluation** |  
+| July 10 to July 16  | Fetch category details using relevant APIs. Implement Fragment 1 to show list of subcategories in fragment one showing all at once as a category does’t have more than 50 elements total (usually). Sorted alphabetically. Implement Fragment 2 to show list of images in a category(reusing featured image fragment) | Category Activity with list of subcategories, images with dynamic scrolling feature |
+| July 17 to July 23  | Improvements based on the feedback received from mentors and other community members. Writing unit test for above implemented modules. Manual testing on different devices, emulators. Bug fixes, Writing documentation. | Documentation of above modules. Unit test for category search, search history, sub-category list, images inside category. |
+| July 24 to July 30  | Read about [FastCCI](https://commons.wikimedia.org/wiki/Help:FastCCI)/ Search other APIs to show the best images first.(images inside subcategories). Add spinner/menu and add 4 options (Good Pictures, Featured pictures, Quality Images, Valued Images) | Link to finalized API to fetch images inside subcategories, Improvements in Category Activity UI by adding spinner/menu |
+| July 31 to August 6  | Modify existing APIs for fetching new image list filtered according to item selected in menu/spinner. Add skip Option in Login which redirects to Featured Image Activity. Making changes in navigation base activity to hide items (my contributions, logout, other items which needs login) in navigation drawer and showing a login option in navigation drawer which takes the user to login page if user is not logged in (by checking from shared preferences). | Sorted Image list in category activity according to FastCCI, Skip Option in Login |
+| August 7 to August 13  | Write Unit test for FastCCI implementation. Improvements based on the feedback received from mentors, other community members. Manual testing on different devices, emulators. Writing documentation for final submission. Working on Project Presentation.  | Unit test for FastCCI. Project Presentation | 
+| August 14 to August 21  | Mentors submit final student evaluations.  |  
+| August 22  | **Final results of Google Summer of Code 2018 announced**  |  
 |--------------|-------------------|
 
 **Other Deliverables**
@@ -183,7 +186,7 @@ It has been an enriching experience contributing to the app and I look forward t
 
 ====Issues:
 
-- **Closed Issues:(10/16)**
+- **Closed Issues: (10/16)**
 
 > -  [Add FAQs page in Commons App](https://github.com/commons-app/apps-android-commons/issues/1246)
 > -  [Add Option to donate to Wikimedia Foundation](https://github.com/commons-app/apps-android-commons/issues/1231) 
@@ -197,28 +200,4 @@ It has been an enriching experience contributing to the app and I look forward t
 > -  [Change LoginActivity Textview to Snackbar](https://github.com/commons-app/apps-android-commons/issues/1138) 
 
 - **[Open Issues](https://github.com/commons-app/apps-android-commons/issues/created_by/ujjwalagrawal17)**  
-
-
-
-======================================================================================================================
-
-Questions
-Should the timeline be modified in any other way? 
-For example,
-Decreasing time for some feature and giving it to others, Changing order of doing things.
-Should the proposal be modified in any other way?
-Adding more detail for something, Removing some detail, Changing the order of writing things, Anything wrongly written, Any comments on the readability of the proposal
-
-
-Should I add skip login and browse commons or any other Feature in My proposal?
-
-I will need to add a skip button in login page which will take to featured Images Activity , make changes in Navigation Base activity to hide Navigation Drawer items that needs login and show a login item if user is not logged in by checking from shared preferences.
-
-Should I add search by description feature in images and category search?
-
-I will need to add a spinner/ menu in search activity for it. And choose title and description in it. Fetch items based on item selected in menu.
-
-
-
-I am planning to submit my proposal by 27th morning. I would be grateful if you can give me some suggestions before that and sorry for the delay. I implemented changes told by Nicolas in phabricator in this proposal.
 
